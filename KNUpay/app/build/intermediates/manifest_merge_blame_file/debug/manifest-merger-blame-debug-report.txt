@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.knupay10"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Zosia\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.knupay10.Register" />
+21-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:12:9-55
+21-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:12:19-43
+22        <activity android:name="com.example.knupay10.Login2" />
+22-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:13:9-44
+22-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:13:19-41
+23        <activity android:name="com.example.knupay10.Login" />
+23-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:14:9-43
+23-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:14:19-40
+24        <activity android:name="com.example.knupay10.HistoryActivity" />
+24-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:15:9-53
+24-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:15:19-50
+25        <activity android:name="com.example.knupay10.StartActivity" />
+25-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:16:9-51
+25-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:16:19-48
+26        <activity android:name="com.example.knupay10.MainActivity" >
+26-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\Zosia\Desktop\Capstone\CapstoneProject-master\CapstoneProject-master\KNUpay\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

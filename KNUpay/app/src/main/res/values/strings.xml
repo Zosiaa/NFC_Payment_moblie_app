@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KNUpay.1.0</string>
+    <string name="welcome_to_knupay">Welcome to Knupay</string>
+    <string name="logo">logo</string>
+    <string name="welcome_to_knupay1">Welcome to KNUpay</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="make_transfer">MAKE TRANSFER</string>
+    <string name="back">Back</string>
+    <string name="transaction_history2">transaction_history2</string>
+    <string name="your_transaction_history">Your Transaction History</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>

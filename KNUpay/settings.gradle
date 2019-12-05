@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='KNUpay.1.0'
